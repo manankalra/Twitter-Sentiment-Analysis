@@ -1,0 +1,68 @@
+#!/usr/bin/env python
+
+"""
+Testing the Voted Classifier on random data
+"""
+
+__author__ = "Manan Kalra"
+__email__ = "manankalr29@gmail.com"
+
+
+from main.sentiment import sentiment_mod as senti
+
+
+print(senti.sentiment("This movie was awesome! The acting was great, plot was wonderful, and there were pythons..."
+                      "so yea!"))
+print(senti.sentiment("This movie was utter junk. There were absolutely 0 pythons. I don't see what the point was at all"
+                      ". Horrible movie, 0/10"))
+print(senti.sentiment("Vin Diesel, the Fast and Furious star who spearheaded the first xXx flick all of a decade and a "
+                      "half ago, returns to fuel the third instalment of the franchise. He shouldn't have bothered. "
+                      "What a monumental waste of firepower this! The propellants have lost their frisson, the gunpowder"
+                      " has gone soggy, and the ideas have gathered irremovable rust. Xander Cage, who was anyways given"
+                      " up for dead, should have stayed put wherever he was in hiding all these years. No matter what "
+                      "stunt the extreme sportsman-turned-secret agent pulls off, he cannot fire up this terribly shoddy"
+                      " actioner. The gravity-defying leaps, the jaw-dropping stunts, the guttural bon mots, and the"
+                      " dizzyingly fast cars and dirt bikes can at best provide cheap superficial thrills. Genuine "
+                      "substance, notwithstanding all the grand talk of imperiled mankind being in desperate need of new"
+                      " soldiers to champion its cause, eludes xXx: The Return of Xander Cage. The film, to fulfil "
+                      "popular expectations, delivers unrelenting action, with Cage and his oddball cohorts taking shots"
+                      " at chasing a device that can remote control satellites to come crashing to earth and inflicting"
+                      " great damage to human life and property. xXx: The Return of Xander Cage goes all over the world,"
+                      " literally - from Santo Domingo in Dominican Republic to Caramoan Islands in the Philippines via "
+                      "London and Detroit - with the aim of mining excitement in unlikely places. It finds none at all "
+                      "although ace cinematographer Russell Carpenter's camera captures many an interesting view along "
+                      "the way. It certainly isn't on the visuals that director D.J. Caruso is focused. The disorienting"
+                      " surround sound is what drives xXx 3. Watching this film is like sitting through a poorly "
+                      "executed video game that gives the players no real clues to what on earth is going on in the name"
+                      " of entertainment. If the film has been released in India a week ahead of its US opening, there "
+                      "is good reason. Deepika Padukone, in her first appearance in a Hollywood film, is a point of "
+                      "interest in this part of the world. Despite the unexplained heavily Indian accent, she holds her"
+                      " own as the badass Serena Unger, a woman of indeterminate nationality who gives as good as she "
+                      "gets. She, however, plays second fiddle to Diesel for the most part except for a scene in which "
+                      "the femme fatale proves that she is as quick on the draw as the invincible hero. As reward, in a "
+                      "climactic moment, Serena gets to plant a full-on kiss on the big man, thereby establishing her "
+                      "preeminence in this assemblage. Never before has a Bollywood diva played the female lead in a "
+                      "Hollywood film. For that fact alone, one might be tempted to go and check out xXx: The Return of "
+                      "Xander Cage. But be warned: while Deepika may not be mere arm candy here, she isn't the fulcrum"
+                      " of the plot either. That, in different ways, goes for the rest of the principal cast as well -"
+                      " Australia's Toni Collette and Ruby Rose, Hong Kong's Donnie Yen, Thailand's Tony Jaa, China's "
+                      "Kris Wu, Scotland's Rory McCann and Canada's Bulgarian-origin actress Nina Dobrev. When you are "
+                      "saddled with a script that is doomed to run on empty, you have to fall back on global star power"
+                      ", hoping that the actors from diverse cinematic constellations will have enough of a fan "
+                      "following in their respective backyards countries to ensure that the film does not end up in the"
+                      " red. Each of these actors plays a character that stands by like a bunch of fidgety kids while "
+                      "Xander Cage peddles his standard wares. They are allowed to take centrestage ever so rarely when"
+                      " the male protagonist deigns to move aside to give them some leeway. But even when he does, it is"
+                      " at best for a fleeting moment. The film also has Samuel L Jackson reprising the role of NSA "
+                      "agent Augustus Gibbons - he is at the heart of two plot twists that bookend the action drama-and"
+                      " Brazilian football star Neymar Jr. (in his first acting assignment) and rapper Ice Cube (who "
+                      "played the lead in the underwhelming second xXx instalment, State of the Union). With so many of "
+                      "them reduced to huffing and puffing their way through a script that does not possess a whit of "
+                      "originality, the intrepid fictional saviours of the world make heavy weather of their mission to"
+                      " rid mankind of the mass fear psychosis that powerful governments capitalize on in order to "
+                      "control people. Yes, there is in xXx: The Return of Xander Cage much mumbo-jumbo about \"slaves "
+                      "and despots\". It makes as much sense as characters who emerge in one piece no matter what hits "
+                      "them, thanks to their bulletproof vests, their indestructible cars and dirt bikes and their"
+                      " magical parachutes that open in the nick of time. If this numbing assault weren't bad enough, "
+                      "xXx: Return of Xander Cage drops enough hints that this isn't the end of the road. There might be"
+                      " another one on the way. What can one say to that? Run for cover! "))
