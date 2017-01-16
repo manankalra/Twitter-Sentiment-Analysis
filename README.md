@@ -6,7 +6,7 @@ Sentiment Analysis of live [Twitter](https://twitter.com) feed.
 
 ##Requirements
 
-* [nltk](htps://nltk.org)
+* [nltk](https://nltk.org)
 * [numpy](https://numpy.org)
 * [scipy](https://scipy.org)
 * [scikit-learn](https://scikit-learn.org)
