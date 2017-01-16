@@ -1,5 +1,4 @@
 #Twitter Sentiment Analysis
----
 
 Sentiment Analysis of live [Twitter](https://twitter.com) feed.
 
