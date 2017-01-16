@@ -2,7 +2,7 @@
 
 Sentiment Analysis of live [Twitter](https://twitter.com) feed.
 
-![demo](gif\TwitterSentimentAnalysis.gif)
+![demo](gif/TwitterSentimentAnalysis.gif)
 
 ##Requirements
 
