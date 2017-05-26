@@ -1,10 +1,10 @@
-#Twitter Sentiment Analysis
+# Twitter Sentiment Analysis
 
 Sentiment Analysis of live [Twitter](https://twitter.com) feed.
 
 ![demo](gif/TwitterSentimentAnalysis.gif)
 
-##Requirements
+## Requirements
 
 * [nltk](https://nltk.org)
 * [numpy](https://numpy.org)
@@ -12,5 +12,5 @@ Sentiment Analysis of live [Twitter](https://twitter.com) feed.
 * [scikit-learn](https://scikit-learn.org)
 
 
-##License
-###MIT
+## License
+### MIT
